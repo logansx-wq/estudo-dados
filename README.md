@@ -26,4 +26,4 @@ Cada subpasta deste repositório representa um ambiente isolado. Ao entrar em qu
 
 ---
 **Desenvolvido por Matheus Mariano**  
-Para conversarmos sobre dados, projetos ou oportunidades, conecte-se comigo no [LinkedIn]([Cole-o-link-do-seu-linkedin-aqui](https://www.linkedin.com/in/matheus-mariano-ti/)).
+Para conversarmos sobre dados, projetos ou oportunidades, conecte-se comigo no [LinkedIn]((https://www.linkedin.com/in/matheus-mariano-ti/)).
