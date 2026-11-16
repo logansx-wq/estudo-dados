@@ -2,7 +2,7 @@
 
 Estudo de dados desenvolvido com Python e Pandas, integrando tabelas fato e dimensões para apuração de faturamento, rentabilidade e desempenho comercial.
 
-## Estrutura do Projeto
+## Estrutura 
 - `Cadastros.xlsx`: Tabelas dimensionais (`dProdutos`, `dClientes`, `dVendedores`).
 - `Vendas.xlsx`: Registos de transações de vendas (`fVendas`).
 - `Metas.csv`: Metas comerciais mensais por vendedor.
