@@ -9,6 +9,7 @@ Aqui, documento o meu aprendizado diário, armazeno scripts de fixação e const
 Para facilitar a navegação, os estudos estão organizados em pastas independentes por projeto ou tecnologia. Atualmente, o repositório contém:
 
 * **[analise-de-dados-pandas](./analise-de-dados-pandas):** Projeto focado na ingestão, limpeza e enriquecimento de bases brutas de cadastros, metas e vendas utilizando Python e a biblioteca Pandas.
+* **[pipeline_medalhao_consumidor](./pipeline_medalhao_consumidor):**
 * *(Em breve: Novos diretórios cobrindo modelagem dimensional, consultas analíticas e visualização de dados).*
 
 ## Tecnologias e Ecossistema
