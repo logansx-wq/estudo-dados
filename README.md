@@ -1,4 +1,4 @@
-#Laboratório de Estudos: Dados e BI
+# Laboratório de Estudos: Dados e BI
 
 Repositório central de estudos e práticas. 
 
