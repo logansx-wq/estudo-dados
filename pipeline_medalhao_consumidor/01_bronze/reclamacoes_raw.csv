@@ -1,0 +1,51 @@
+id_chamado,data_registro,empresa,uf,problema,status_resolucao,nota_consumidor
+1001,15/01/2026,American Airlines,SP,Atraso de Voo,Resolvido,4
+1002,2026-01-16,MaisCredit Consultoria,sp,Cobrança Indevida,Não Resolvido,1
+1003,17/01/2026,Universidade São Judas, SP ,Taxa Abusiva,Resolvido,
+1004,18-01-2026,AMERICAN AIRLINES,RJ,Extravio de Bagagem,,3
+1005,19/01/2026,SPPREV,SP,Atraso no Pagamento,Em Andamento,
+1006,20/01/2026,Mais Credit,mg,Cobrança Indevida,Resolvido,5
+1007,21/01/2026,American Airlines LTDA,SP,Atraso de Voo,Resolvido,4
+1008,22/01/2026,Universidade São Judas,SP,Mensalidade Indevida,Não Resolvido,2
+1009,2026-01-23,MaisCredit,RJ,Nome no Serasa,Resolvido,5
+1010,24-01-2026,SPPREV,sp,Revisão de Pensão,Em Andamento,
+1011,25/01/2026,American Airlines,SP,Atraso de Voo,Não Resolvido,1
+1012,26/01/2026,Univ. São Judas, SP,Taxa Abusiva,Resolvido,5
+1013,27/01/2026,MaisCredit Consultoria,MG,Cobrança Indevida,,
+1014,2026-01-28,AMERICAN AIRLINES,SP,Extravio de Bagagem,Resolvido,4
+1015,29/01/2026,SPPREV,RJ,Atraso no Pagamento,Resolvido,3
+1016,30-01-2026,Mais Credit,SP,Nome no Serasa,Não Resolvido,1
+1017,31/01/2026,Universidade São Judas,sp,Mensalidade Indevida,Em Andamento,
+1018,01/02/2026,American Airlines,SP,Atraso de Voo,Resolvido,99
+1019,2026-02-02,MaisCredit, SP ,Cobrança Indevida,Resolvido,4
+1020,03/02/2026,São Paulo Previdência,SP,Revisão de Pensão,Não Resolvido,2
+1021,04-02-2026,American Airlines LTDA,RJ,Cancelamento,Resolvido,5
+1022,05/02/2026,Univ. São Judas,SP,Taxa Abusiva,Em Andamento,
+1023,06/02/2026,MaisCredit Consultoria,mg,Nome no Serasa,Resolvido,3
+1024,2026-02-07,AMERICAN AIRLINES,SP,Atraso de Voo,,4
+1025,08/02/2026,SPPREV,SP,Atraso no Pagamento,Resolvido,5
+1026,09-02-2026,Mais Credit,RJ,Cobrança Indevida,Não Resolvido,1
+1027,10/02/2026,Universidade São Judas,sp,Mensalidade Indevida,Resolvido,4
+1028,11/02/2026,American Airlines, SP ,Extravio de Bagagem,Em Andamento,
+1029,2026-02-12,MaisCredit,SP,Nome no Serasa,Resolvido,5
+1030,13/02/2026,São Paulo Previdência,mg,Revisão de Pensão,Resolvido,4
+1031,14-02-2026,American Airlines LTDA,SP,Atraso de Voo,Não Resolvido,2
+1032,15/02/2026,Univ. São Judas,SP,Taxa Abusiva,Resolvido,Dez
+1033,16/02/2026,MaisCredit Consultoria,RJ,Cobrança Indevida,Em Andamento,
+1034,2026-02-17,AMERICAN AIRLINES,sp,Cancelamento,Resolvido,5
+1035,18/02/2026,SPPREV, SP,Atraso no Pagamento,Não Resolvido,1
+1036,19-02-2026,Mais Credit,SP,Nome no Serasa,Resolvido,4
+1037,20/02/2026,Universidade São Judas,MG,Mensalidade Indevida,,3
+1038,21/02/2026,American Airlines,SP,Extravio de Bagagem,Resolvido,4
+1039,2026-02-22,MaisCredit,sp,Cobrança Indevida,Em Andamento,
+1040,23/02/2026,São Paulo Previdência,SP,Revisão de Pensão,Resolvido,5
+1041,24-02-2026,American Airlines LTDA, SP ,Atraso de Voo,Não Resolvido,1
+1042,25/02/2026,Univ. São Judas,RJ,Taxa Abusiva,Resolvido,4
+1043,26/02/2026,MaisCredit Consultoria,SP,Nome no Serasa,Resolvido,5
+1044,2026-02-27,AMERICAN AIRLINES,mg,Cancelamento,Em Andamento,
+1045,28/02/2026,SPPREV,sp,Atraso no Pagamento,Resolvido,3
+1046,01-03-2026,Mais Credit, SP ,Cobrança Indevida,Não Resolvido,1
+1047,02/03/2026,Universidade São Judas,SP,Mensalidade Indevida,Resolvido,5
+1048,03/03/2026,American Airlines,RJ,Extravio de Bagagem,Resolvido,4
+1049,2026-03-04,MaisCredit,SP,Nome no Serasa,Em Andamento,
+1050,05/03/2026,São Paulo Previdência,SP,Revisão de Pensão,Resolvido,5
