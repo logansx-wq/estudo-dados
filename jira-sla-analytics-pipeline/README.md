@@ -1,12 +1,12 @@
 # Pipeline de Monitoramento Operacional & SLA (Jira Cloud API + Supabase)
 
-Pipeline de dados ponta a ponta (*end-to-end*) construído para extrair histórico de chamados da API REST do Jira Cloud, armazenar dados semiestruturados em nuvem (PostgreSQL/Supabase) e aplicar regras complexas de negócio e governança de SLA utilizando **Arquitetura Medalhão (Bronze, Silver, Gold)**.
+Pipeline de dados construído para extrair histórico de chamados da API REST do Jira Cloud, armazenar dados semiestruturados em nuvem (PostgreSQL/Supabase) e aplicar regras complexas de negócio e governança de SLA utilizando **Arquitetura Medalhão (Bronze, Silver, Gold)**.
 
 ## Problema de Negócio
-Em operações de suporte e sistemas, o tempo corrido entre a abertura e o encerramento de um chamado não reflete a eficiência real da equipe. Este projeto resolve três dores críticas de gestão:
+Em operações de suporte e sistemas, o tempo corrido entre a abertura e o encerramento de um chamado não reflete a eficiência real da equipe. Este estudo resolve três "dores" de gestão:
 1. **Expurgo de Pausas:** Desconta o tempo em que o ticket ficou aguardando retorno do cliente (`Pending` / `Aguardando cliente`).
 2. **Calendário Corporativo:** Contabiliza apenas minutos úteis (segunda a sexta-feira, das 08h às 18h, fuso `America/Sao_Paulo`).
-3. **Detecção de Gargalos e Retrabalho:** Reconstrói a linha do tempo de transições (`changelog`) para identificar filas onde o chamado trava e casos de *ping-pong* (3 ou mais repasses).
+3. **Detecção de Gargalos e Retrabalho:** Reconstrói a timeline de transições (`changelog`) para identificar filas onde o chamado trava e casos de *ping-pong* (3 ou mais repasses).
 
 ## Arquitetura da Solução
 
