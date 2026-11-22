@@ -60,7 +60,7 @@ Renomeie .env.example para .env e preencha suas credenciais do Jira Cloud e Supa
 <img width="761" height="198" alt="image" src="https://github.com/user-attachments/assets/5c6139d9-f35b-4db1-908e-0855f47fb83f" />
 
 Execute os scripts da pasta sql/ em ordem sequencial (01 a 03) no SQL Editor do Supabase.
-<img width="642" height="139" alt="image" src="https://github.com/user-attachments/assets/bf5006b2-0a13-4af0-a87e-16185271df7e" />
+<img width="676" height="100" alt="image" src="https://github.com/user-attachments/assets/e5e2a20b-f6ec-4057-a8d3-a85912b6ec5d" />
 
 Execute a extração para popular a camada Bronze:
 
