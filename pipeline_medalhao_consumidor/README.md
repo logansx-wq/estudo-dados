@@ -1,8 +1,16 @@
+<<<<<<< Updated upstream
 # Pipeline ETL: Arquitetura Medalhão (litígio consumidores)
 
 Este estudo demonstra a construção de um pipeline de dados end-to-end aplicando os conceitos da Arquitetura Medalhão (Bronze, Silver e Gold). O objetivo é simular o fluxo de ingestão, higienização e modelagem analítica de dados reais e despadronizados oriundos de litígios de consumo.
 
 ## Objetivo do estudo
+=======
+# Pipeline ETL: Arquitetura Medalhão (litígio entre consumidores)
+
+Este estudo demonstra a construção de um pipeline de dados end-to-end aplicando os conceitos da Arquitetura Medalhão (Bronze, Silver e Gold). O objetivo é simular o fluxo de ingestão, higienização e modelagem analítica de dados reais e despadronizados oriundos de litígios de consumo.
+
+## Objetivo do Projeto
+>>>>>>> Stashed changes
 Processar uma base de dados crua, aplicando regras de negócio e limpeza estrutural em Python, para finalmente disponibilizar a informação num Banco de Dados Relacional (SQL Server) modelado em Star Schema, pronto para consumo via ferramentas de Business Intelligence (Power BI).
 
 ## Arquitetura e Fluxo de Dados
@@ -11,13 +19,19 @@ O estudo está dividido em três camadas de maturidade de dados:
 
 ### Camada Bronze (Dados Brutos)
 <img width="617" height="61" alt="image" src="https://github.com/user-attachments/assets/1c615638-e133-4b23-84d2-b9ca7a87cb97" />
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 * **Fonte:** Arquivo CSV simulando extrações de sistemas de atendimento ao consumidor.
 * **Características:** Dados exatamente como vieram da fonte, contendo erros de tipagem, formatos de data inconsistentes, valores nulos e falta de padronização nas strings (nomes de empresas com diferentes grafias).
 
 ### Camada Silver (Limpeza e Padronização)
 <img width="678" height="71" alt="image" src="https://github.com/user-attachments/assets/99546e5d-00c9-4bb0-97aa-dac07ab45f39" />
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 * **Ferramenta:** Python (Pandas).
 * **Processamento:** 
   * Unificação de strings e remoção de espaços em branco (padronização de réus e estados).
@@ -75,11 +89,14 @@ Abra a pasta 02_silver no VS Code.
 Abra o arquivo limpeza_pandas.ipynb.
 
 Execute as células do notebook sequencialmente. Este script fará a leitura do arquivo bruto, o tratamento de tipagem, a limpeza de nulos, a normalização de strings e resolverá problemas de codificação (UTF-8/Latin-1).
+<img width="1199" height="575" alt="image" src="https://github.com/user-attachments/assets/a4e256e3-23fe-49c9-a933-fcac95b240a7" />
+
 
 <img width="1199" height="575" alt="image" src="https://github.com/user-attachments/assets/a4e256e3-23fe-49c9-a933-fcac95b240a7" />
 
 
 Confirme se o arquivo reclamacoes_silver.csv foi gerado com sucesso dentro da própria pasta 02_silver.
+<img width="283" height="29" alt="image" src="https://github.com/user-attachments/assets/c8dec6cd-fc13-4af7-aff0-63f914662bd9" />
 
 <img width="283" height="29" alt="image" src="https://github.com/user-attachments/assets/c8dec6cd-fc13-4af7-aff0-63f914662bd9" />
 
@@ -87,6 +104,7 @@ Confirme se o arquivo reclamacoes_silver.csv foi gerado com sucesso dentro da pr
 Abra o SSMS e conecte-se ao seu servidor local.
 
 Abra o script 03_gold/ddl_star_schema.sql e execute-o. Isso criará o banco de dados isolado ProjetoConsumidorGold e a estrutura relacional vazia (Tabelas Dimensão e Tabela Fato).
+<img width="229" height="210" alt="image" src="https://github.com/user-attachments/assets/07550c4d-93c3-475d-b28b-4336ac5ade85" />
 
 <img width="229" height="210" alt="image" src="https://github.com/user-attachments/assets/07550c4d-93c3-475d-b28b-4336ac5ade85" />
 
@@ -95,6 +113,8 @@ Importe os dados limpos para a área de transição (Staging):
 No SSMS, clique com o botão direito no banco ProjetoConsumidorGold.
 
 Acesse Tarefas > Importar Arquivo Simples...
+<img width="657" height="303" alt="image" src="https://github.com/user-attachments/assets/29729eab-b366-4e8b-a602-7f70a94212d6" />
+
 
 <img width="657" height="303" alt="image" src="https://github.com/user-attachments/assets/29729eab-b366-4e8b-a602-7f70a94212d6" />
 
@@ -102,6 +122,7 @@ Acesse Tarefas > Importar Arquivo Simples...
 Selecione o arquivo reclamacoes_silver.csv gerado no Passo 2.
 
 Defina o nome da nova tabela como stg_reclamacoes e conclua a importação.
+<img width="811" height="285" alt="image" src="https://github.com/user-attachments/assets/4e037710-48a4-4fd7-8d4f-fad220adf9be" />
 
 <img width="811" height="285" alt="image" src="https://github.com/user-attachments/assets/4e037710-48a4-4fd7-8d4f-fad220adf9be" />
 
