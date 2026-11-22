@@ -56,8 +56,11 @@ source venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 ```
 Renomeie .env.example para .env e preencha suas credenciais do Jira Cloud e Supabase.
+<img width="673" height="237" alt="image" src="https://github.com/user-attachments/assets/557cac9e-97be-49f3-a2ab-1148429f5404" />
+<img width="761" height="198" alt="image" src="https://github.com/user-attachments/assets/5c6139d9-f35b-4db1-908e-0855f47fb83f" />
 
 Execute os scripts da pasta sql/ em ordem sequencial (01 a 03) no SQL Editor do Supabase.
+<img width="642" height="139" alt="image" src="https://github.com/user-attachments/assets/bf5006b2-0a13-4af0-a87e-16185271df7e" />
 
 Execute a extração para popular a camada Bronze:
 
